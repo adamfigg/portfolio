@@ -60,9 +60,27 @@ export const ProfilePicture = styled.div`
 `
 
 export const Project = styled.div`
-
+	/* display: flex;
+	flex-direction: row; */
 `
 
 export const Thumb = styled.div`
 
+	width: 30rem;
+	height: 30rem;
+
+	background: url(${props => props.src}) center no-repeat;
+	background-size: cover;
+
+	border: .5rem solid white;
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.7);
+
+	justify-self: start;
+	align-self: center;
+`
+
+export const ProjectDetails = styled.div`
+	/* display: flex;
+justify-content: flex-end;
+flex-direction: column; */
 `
