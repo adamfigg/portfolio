@@ -93,3 +93,8 @@ const mapStateToDispatch = {
 };
 
 export default connect(mapStateToProps, mapStateToDispatch)(App);
+
+// do changes
+// git checkout netlify branch
+// git merge master
+// git push
