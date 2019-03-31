@@ -75,7 +75,7 @@ class App extends Component {
 					<p>
 						<a href={'https://www.linkedin.com/in/adam-figgat/'} rel='noopener noreferrer' target='_blank'><Icon src={linkedin} /> LinkedIn</a>
 					</p>
-					<p>afiggat@gmail.com</p>
+					<a href={'mailto:afiggat@gmail.com'} rel='noopener noreferrer' target='_blank'>afiggat@gmail.com</a>
 				</Footer>
 			</SApp>
 		);
