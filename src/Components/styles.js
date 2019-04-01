@@ -20,6 +20,10 @@ export const Banner = styled.div`
 		color: white;
 		margin-top: 3rem;
 		text-shadow: 0px 2px 5px rgba(0,42,80,0.8);
+
+		@media only screen and (max-width: 700px) {
+			margin-top: -5rem;
+		}
 	}
 `
 
