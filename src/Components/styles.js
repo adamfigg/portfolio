@@ -148,7 +148,9 @@ export const EmptyThumbSmall = styled.div`
 	text-align: center;
 
 	@media only screen and (max-width: 1151px) {
-		margin-left: 1rem;
+		margin-left: auto;
+	  margin-right: auto;
+		margin-top: 20px;
 	}
 
 	@media only screen and (min-width: 1151px) {
