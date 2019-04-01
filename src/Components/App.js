@@ -13,6 +13,8 @@ import {
 	Project,
 	Thumb,
 	EmptyThumb,
+	ThumbSmall,
+	EmptyThumbSmall,
 	ProjectDetails,
 	Footer,
 	Icon
@@ -51,6 +53,7 @@ class App extends Component {
 										{details.map(d => <li>{d}</li>)}
 									</ul>
 								</ProjectDetails>
+								{thumb ? <ThumbSmall src={require(`./../Assets/${thumb}`)} /> : <EmptyThumbSmall>Project is not yet public</EmptyThumbSmall>}
 							</Project>
 							)
 						}
@@ -61,7 +64,7 @@ class App extends Component {
 						<ProfilePicture src={profilePic} />
 						<div className="content">
 							<p>I received my bachelor’s from Brigham Young University-Idaho in Business Management with an emphasis in Marketing and am now a front-end web developer.</p>
-							<p>I recently dove into the world of coding and front-end web development through Dev-Mountain. I have experience with full-stack web development and love working with a team to solve problems using React, Redux, Node.js, Javascript, HTML5, CSS3, Bootstrap, jQuery, Postgress, and any other tech I can get my hands on.</p>
+							<p>I recently dove into the world of coding and front-end web development through Dev-Mountain and have about 2 years of developing with React and Redux. I have experience with full-stack web development and love working with a team to solve problems using React, Redux, Node.js, Javascript, HTML5, CSS3, Bootstrap, Postgress, and any other tech I can get my hands on.</p>
 							<p>My previous 7 years were spent working as a social media marketer (SMM), content curator, search engine optimizer (SEO), and event marketer.</p>
 							<p>I am a seeker of fresh powder, avid gamer, and enjoy most things adventurous.</p>
 						</div>

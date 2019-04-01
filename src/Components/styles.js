@@ -40,6 +40,15 @@ export const GridPanel = styled(Panel)`
 	& > div {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
+
+			@media only screen and (max-width: 1150px) {
+			grid-template-columns: 1fr;
+
+			p {
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}
+		}
 	}
 `
 
@@ -60,12 +69,22 @@ export const ProfilePicture = styled.div`
 
 	justify-self: start;
 	align-self: center;
+
+	@media only screen and (max-width: 1150px) {
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 2rem;
+	}
 `
 
 export const Project = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	margin: 10rem 0;
+
+	@media only screen and (max-width: 1150px) {
+		grid-template-columns: 1fr;
+	}
 `
 
 export const EmptyThumb = styled.div`
@@ -88,13 +107,59 @@ export const EmptyThumb = styled.div`
 	color: #ccc;
 
 	text-align: center;
+
+	@media only screen and (max-width: 1150px) {
+		display: none;
+	}
 `
 
 export const Thumb = styled(EmptyThumb)`
 	background: url(${props => props.src}) center no-repeat;
 	background-size: cover;
+
+	@media only screen and (max-width: 1150px) {
+		display: none;
+	}
 `
 
+export const EmptyThumbSmall = styled.div`
+	width: 30rem;
+	height: 30rem;
+
+	background: #eee;
+
+	border: .5rem solid white;
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.7);
+
+	justify-self: start;
+	align-self: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 2.4rem;
+	color: #ccc;
+
+	text-align: center;
+
+	@media only screen and (max-width: 1151px) {
+		margin-left: 1rem;
+	}
+
+	@media only screen and (min-width: 1151px) {
+		display: none;
+	}
+`
+
+export const ThumbSmall = styled(EmptyThumbSmall)`
+	background: url(${props => props.src}) center no-repeat;
+	background-size: cover;
+
+	@media only screen and (min-width: 1151px) {
+		display: none;
+	}
+`
 export const ProjectDetails = styled.div`
 
 	margin-left: 5rem;
@@ -111,6 +176,11 @@ export const ProjectDetails = styled.div`
 
 	a, li {
 		font-size: 1.6rem;
+	}
+
+	@media only screen and (max-width: 1150px) {
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 `
 
