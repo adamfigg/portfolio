@@ -1,5 +1,17 @@
 const db = [
 	{
+		name: "The Dosh Board",
+		link: 'https://github.com/adamfigg/finance_app',
+		thumb: 'looksImage.png',
+		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript ES7",
+		details: [
+			'Created a dashboard where you can track your expenses complete with both a frontend and backend',
+			'Learned to use Phoenix and Elixir to build a backend',
+			'Applied Material UI and Material Table to create a clean front-end experience'
+
+		]
+	},
+	{
 		name: "Younique Looks Creation Tool",
 		link: "https://www.youniqueproducts.com/looks/look/pink-smokey-eyes",
 		thumb: 'looksImage.png',
