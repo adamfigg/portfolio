@@ -2,7 +2,7 @@ const db = [
 	{
 		name: "The Dosh Board",
 		link: 'https://github.com/adamfigg/finance_app',
-		thumb: 'looksImage.png',
+		thumb: 'finance_app.gif',
 		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript ES7",
 		details: [
 			'Created a dashboard where you can track your expenses complete with both a frontend and backend',

@@ -14,7 +14,7 @@
     "react-scripts": "2.1.8",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "sequelize": "^5.2.1",
+    "sequelize": "^5.7.4",
     "sqlite3": "^4.0.6",
     "styled-components": "^4.2.0"
   },
