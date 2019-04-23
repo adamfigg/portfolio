@@ -48,7 +48,7 @@ class App extends Component {
 								<ProjectDetails>
 									<h2>{name}</h2>
 									<h3>{tech}</h3>
-									{link && <a href={link} rel='noopener noreferrer' target='_blank'>Demo here</a>}
+									{link && <a href={link} rel='noopener noreferrer' target='_blank'>See it here</a>}
 									<ul>
 										{details.map(d => <li>{d}</li>)}
 									</ul>

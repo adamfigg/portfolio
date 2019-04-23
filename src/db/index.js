@@ -45,7 +45,7 @@ const db = [
 	{
 		name: "ToDo List with Hooks",
 		link: "https://github.com/adamfigg/react_hooks/blob/master/src/components/App.js",
-		thumb: 'OverwatchApp.gif',
+		thumb: 'react_with_hooks.gif',
 		tech: "React, React Hooks",
 		details: [
 			"Just a snappy todo list I created using React Hooks which are the new hottness"

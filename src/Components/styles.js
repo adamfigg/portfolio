@@ -149,7 +149,7 @@ export const EmptyThumbSmall = styled.div`
 
 	@media only screen and (max-width: 1151px) {
 		margin-left: auto;
-	  margin-right: auto;
+		margin-right: auto;
 		margin-top: 20px;
 	}
 
@@ -161,7 +161,7 @@ export const EmptyThumbSmall = styled.div`
 export const ThumbSmall = styled(EmptyThumbSmall)`
 	background: url(${props => props.src}) center no-repeat;
 	background-size: cover;
-
+	width: 16em;
 	@media only screen and (min-width: 1151px) {
 		display: none;
 	}
