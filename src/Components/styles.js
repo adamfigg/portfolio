@@ -120,6 +120,7 @@ export const EmptyThumb = styled.div`
 export const Thumb = styled(EmptyThumb)`
 	background: url(${props => props.src}) center no-repeat;
 	background-size: cover;
+	width: 16em;
 
 	@media only screen and (max-width: 1150px) {
 		display: none;
