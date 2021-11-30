@@ -1,5 +1,15 @@
 const db = [
 	{
+		name: "Intermountain HealthCare Financial Assistance Application",
+		link: 'https://github.com/adamfigg/finance_app',
+		thumb: 'finance_app.gif',
+		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript ES7",
+		details: [
+			'sdkjfhlkajshflkjhsadlkfjhaslkdjfhaslkjdhflkasjhdflkjsadhflkjh'
+
+		]
+	},
+	{
 		name: "The Dosh Board",
 		link: 'https://github.com/adamfigg/finance_app',
 		thumb: 'finance_app.gif',
