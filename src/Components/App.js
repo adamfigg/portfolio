@@ -64,7 +64,7 @@ class App extends Component {
 						<ProfilePicture src={profilePic} />
 						<div className="content">
 							<p>I am a front-end web developer, though I received my bachelor’s from Brigham Young University-Idaho in Business Management.</p>
-							<p>I dove into the world of coding and front-end web development through Dev-Mountain and have about 2 years of developing experience with React and Redux. I have worked with a full-stack of web development and love working with a team to solve problems using React, Redux, Node.js, Javascript, HTML5, CSS3, Bootstrap, Postgress, and any other tech I can get my hands on.</p>
+							<p>I dove into the world of coding and front-end web development through Dev-Mountain and have about 5 years of developing experience with React and Redux. I have worked with a full-stack of web and mobile development and love working with a team to solve problems using React, Redux, Javascript, HTML, CSS, and any other tech I can get my hands on.</p>
 							<p>My previous 7 years were spent as a social media marketer (SMM), content curator, and search engine optimizer (SEO).</p>
 							<p>I am a seeker of fresh powder, avid gamer, and enjoy most things adventurous.</p>
 						</div>

@@ -1,19 +1,39 @@
 const db = [
 	{
-		name: "Intermountain HealthCare Financial Assistance Application",
-		link: 'https://github.com/adamfigg/finance_app',
-		thumb: 'finance_app.gif',
-		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript ES7",
+		name: "Intermountain HealthCare Covid 19 Screening Application",
+		thumb: 'covidScreening.gif',
+		tech: "React, Redux, React Native, Formik, MaterialUI, JavaScript, TypeScript, Yup Validation, Unit Tests",
 		details: [
-			'sdkjfhlkajshflkjhsadlkfjhaslkdjfhaslkjdhflkasjhdflkjsadhflkjh'
-
+			'Created a new Covid pre-screening process that expedites the users experience prior to an appointment',
+			'Acted as a team lead for multiple new employees and assisted with their development for both web and iOS apps',
+			'Helped in the reduction and clean up of code by better implimenting reusable common components'
+		]
+	},
+	{
+		name: "Intermountain HealthCare Appointment Pre-registration",
+		thumb: 'preRegImage.png',
+		tech: "React, Redux, React Native, Formik, MaterialUI, JavaScript, Yup Validation, TypeScript, Unit Tests",
+		details: [
+			'Created the form flow enabling users to pre-register for appointments resulting in reduced time in medical offices',
+			'Followed best practices for shared code between React and React Native to make for a better experience',
+			'Implimented TypeScript and unit tests to create air-tight code'
+		]
+	},
+	{
+		name: "Intermountain HealthCare Financial Assistance Application",
+		thumb: 'faa.gif',
+		tech: "React, Redux, Styled Components, FlexBox, MaterialUI, JavaScript, Yup Validation, TypeScript, Unit Tests",
+		details: [
+			'Developed financial assistance application forms using Formik and Yup',
+			'Introduced the use of custom components to meet specific project requirements',
+			'Implimented TypeScript and unit tests for better code understanding'
 		]
 	},
 	{
 		name: "The Dosh Board",
 		link: 'https://github.com/adamfigg/finance_app',
 		thumb: 'finance_app.gif',
-		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript ES7",
+		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript",
 		details: [
 			'Created a dashboard where you can track your expenses complete with both a frontend and backend',
 			'Learned to use Phoenix and Elixir to build a backend',
@@ -23,9 +43,8 @@ const db = [
 	},
 	{
 		name: "Younique Looks Creation Tool",
-		link: "https://www.youniqueproducts.com/looks/look/pink-smokey-eyes",
 		thumb: 'looksImage.png',
-		tech: "React, Redux, Elasticsearch, Unit Tests, JavaScript ES7",
+		tech: "React, Redux, Elasticsearch, Unit Tests, JavaScript",
 		details: [
 			'Created the main landing page that would be the first thing millions of users would see upon visiting our website',
 			'Developed multiple landing pages that would act as the home page for 30 days which received an average traffic volume of 1 million unique visitors a day',
@@ -36,7 +55,7 @@ const db = [
 		name: "Younique Landing Page",
 		link: "https://www.youniqueproducts.com",
 		thumb: 'landingPage.png',
-		tech: "Drupal 8, Node.js, JavaScript ES7, Elasticsearch, HTML5, CSS3",
+		tech: "Drupal 8, Node.js, JavaScript, Elasticsearch, HTML5, CSS3",
 		details: [
 			'Helped develop of a full experience that included creating a list of products to display as a bundled look that could be added to a shopping cart',
 			'Developed the front-end experience where a user creates a "Look" and adds or removed products from categories making calls to our API and database',
@@ -63,7 +82,6 @@ const db = [
 	},
 	{
 		name: "Overwatch Hero App",
-		link: "http://hero-selector-roulette.surge.sh/",
 		thumb: 'OverwatchApp.gif',
 		tech: "React, Node.js, SQL, Bootsraps, CSS3",
 		details: [
