@@ -4,9 +4,9 @@ const db = [
 		thumb: 'covidScreening.gif',
 		tech: "React, Redux, React Native, Formik, MaterialUI, JavaScript, TypeScript, Yup Validation, Unit Tests",
 		details: [
-			'Created a new Covid pre-screening process that expedites the users experience prior to an appointment',
-			'Acted as a team lead for multiple new employees and assisted with their development for both web and iOS apps',
-			'Helped in the reduction and clean up of code by better implimenting reusable common components'
+			'Created Covid pre-screening process that helps expedite pre-appointment intake information',
+			'Assited with onboarding of new employees and acted as a code mentor for both web and iOS apps',
+			'Refactored the IHC codebase by implementing common reusable components, forms based on Formik, and Yup validation'
 		]
 	},
 	{
@@ -14,9 +14,9 @@ const db = [
 		thumb: 'preRegImage.png',
 		tech: "React, Redux, React Native, Formik, MaterialUI, JavaScript, Yup Validation, TypeScript, Unit Tests",
 		details: [
-			'Created the form flow enabling users to pre-register for appointments resulting in reduced time in medical offices',
-			'Followed best practices for shared code between React and React Native to make for a better experience',
-			'Implimented TypeScript and unit tests to create air-tight code'
+			'Created pre-registration workflow for appointments to reduce in-office patient wait times',
+			'Helped maintain a mono repo for web(React) and mobile (React Native)',
+			'Implimented TypeScript and unit tests to improve overall code quality'
 		]
 	},
 	{
@@ -35,7 +35,7 @@ const db = [
 		thumb: 'finance_app.gif',
 		tech: "React, Redux, Elixir, Phoenix, Styled Components, JavaScript",
 		details: [
-			'Created a dashboard where you can track your expenses complete with both a frontend and backend',
+			'Developed a full-stack expense dashboard for users to track expenses',
 			'Learned to use Phoenix and Elixir to build a backend',
 			'Applied Material UI and Material Table to create a clean front-end experience'
 
@@ -46,7 +46,7 @@ const db = [
 		thumb: 'looksImage.png',
 		tech: "React, Redux, Elasticsearch, Unit Tests, JavaScript",
 		details: [
-			'Created the main landing page that would be the first thing millions of users would see upon visiting our website',
+			'Created the main landing page that greets millions of customers when first visiting the site',
 			'Developed multiple landing pages that would act as the home page for 30 days which received an average traffic volume of 1 million unique visitors a day',
 			'Used numerous tools to deliver the same quality experience across 8 languages under multiple monthly deadlines'
 		]
@@ -66,7 +66,7 @@ const db = [
 		name: "Younique Makeup Try-On",
 		tech: "React, Redux, Styled Components, AWS, Elasticsearch, Unit Tests",
 		details: [
-			'Laid the groundwork to create a microsite that performs a facial scan on a live video or uploaded image and applies makeup in real time',
+			'Laid the groundwork to create a microsite that performs a facial scan on live video or an uploaded image and applies makeup in real time',
 			'Was trusted with the creation of the project repo and implemented best practices for setting up a React and Redux environment',
 			'Onboarded team members as resources grew and developed front-end code as well as unit tests to ensure a timely launch'
 		]
@@ -85,7 +85,7 @@ const db = [
 		thumb: 'OverwatchApp.gif',
 		tech: "React, Node.js, SQL, Bootsraps, CSS3",
 		details: [
-			"Implemented a user experience that makes active calls to an outside API within a React based app",
+			"Implemented the UI/UX and logic that makes call to an outside API within a React based app",
 			"Prototyped and designed with Adobe Experience and used React best practices to reduce load times on API calls",
 			"Utilized javascript libraries jQuery, bootstrap, and Json to create functions that run calls and actions"
 		]
